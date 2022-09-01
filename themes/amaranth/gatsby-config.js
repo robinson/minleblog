@@ -152,9 +152,9 @@ module.exports = (userConfig) => ({
 
         organization: {
           name: "minle",
-          description: "Organization description",
+          description: "minle",
           logoUrl: "/logos/logo.png",
-          url: "www.minle.de",
+          url: "https://www.minle.de",
         },
       },
     },
