@@ -30,6 +30,7 @@ const PostTemplate = ({
           list={pageContext.relatedPosts.map(Types.jsonPostIntoPost)}
         />
       </Wrapper>
+    
     </Layout>
   );
 };
