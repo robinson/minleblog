@@ -2,7 +2,183 @@ module.exports = (userConfig) => ({
   plugins: [
     {
       resolve: "gatsby-theme-advanced",
-      options: userConfig,
+      options: {
+        userConfig,
+        iconList: [
+          {
+            src: "/logos/logo-72x72.png",
+            sizes: "72x72",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-96x96.png",
+            sizes: "96x96",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-120x120.png",
+            sizes: "120x120",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-128x128.png",
+            sizes: "128x128",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-144x144.png",
+            sizes: "144x144",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-152x152.png",
+            sizes: "152x152",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-180x180.png",
+            sizes: "180x180",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-384x384.png",
+            sizes: "384x384",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo.png",
+            sizes: "1024x1024",
+            type: "image/png",
+          },
+          {
+            src: "/logos/logo-maskable-72x72.png",
+            sizes: "72x72",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-96x96.png",
+            sizes: "96x96",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-120x120.png",
+            sizes: "120x120",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-128x128.png",
+            sizes: "128x128",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-144x144.png",
+            sizes: "144x144",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-152x152.png",
+            sizes: "152x152",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-180x180.png",
+            sizes: "180x180",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-384x384.png",
+            sizes: "384x384",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo-maskable-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo.png",
+            sizes: "1024x1024",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+        ],
+        website: {
+          fbAppId: "1825356251115265",
+          twitterName: "letrunghieu",
+          url: "https://www.minle.de",
+          googleAnalyticsId: "UA-47311644-5",
+          copyright: "© Copyright 2022 | minle",
+          disqusShortname: "minle-de",
+          logoUrl: "/logos/logo.png",
+        },
+
+        user: {
+          id: "minle",
+          firstName: "min",
+          lastName: "le",
+          twitterName: "letrunghieu",
+          linkedIn: "",
+          github: "robinson",
+          email: "AdvancedUser@example.com",
+          location: "User Location",
+          about: "software enthuriast!",
+          avatar: "",
+        },
+
+        organization: {
+          name: "Organization Name",
+          description: "Organization description",
+          logoUrl: "/logos/logo.png",
+          url: "https://gatsby-advanced-starter-demo.netlify.com",
+        },
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Gatsby image gallery example`,
+        short_name: `GIG Example`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `browser`,
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
     },
   ],
+
 });

@@ -46,6 +46,7 @@
     "write-good": "write-good **/content/*.{md,mdx}"
   },
   "dependencies": {
+    "@browniebroke/gatsby-image-gallery": "^7.0.7",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.17.1",

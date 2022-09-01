@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { Types } from "gatsby-theme-advanced";
+import { Types, Disqus } from "gatsby-theme-advanced";
 
 import Intro from "./Intro";
 import Render from "./Render";
@@ -13,6 +13,16 @@ const Wrapper = styled.main`
   display: grid;
   grid-gap: 24px;
   justify-items: center;
+  #disqus_thread {
+    width: 100%;
+    max-width: 760px;
+  }
+  
+  #disqus_recommendations {
+    width: 100%;
+    max-width: 760px;
+  }
+  
 `;
 
 type ArticleProps = {
@@ -24,6 +34,7 @@ const Article = ({ post }: ArticleProps): JSX.Element => (
     <Intro post={post} />
     <Render post={post} />
     <Share post={post} />
+    <Disqus post={post} />
   </Wrapper>
 );
 
