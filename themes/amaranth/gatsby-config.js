@@ -138,7 +138,7 @@ module.exports = (userConfig) => ({
         },
 
         user: {
-          id: "minle",
+          id: "AdvancedUser",
           firstName: "min",
           lastName: "le",
           twitterName: "letrunghieu",
