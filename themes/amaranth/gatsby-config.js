@@ -138,13 +138,13 @@ module.exports = (userConfig) => ({
         },
 
         user: {
-          id: "AdvancedUser",
+          id: "minle",
           firstName: "min",
           lastName: "le",
           twitterName: "letrunghieu",
           linkedIn: "",
           github: "robinson",
-          email: "AdvancedUser@example.com",
+          email: "info@minle.de",
           location: "User Location",
           about: "software enthuriast!",
           avatar: "",
