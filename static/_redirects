@@ -1,0 +1,2 @@
+# Redirect alternative domains to primary domain
+https://www.minle.de/* https://www,minle.de/:splat 301!

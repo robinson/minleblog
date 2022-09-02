@@ -1,248 +1,72 @@
-<div align="center" style="margin-bottom:30px">
-    <a href='https://github.com/vagr9k/gatsby-advanced-starter/blob/master/LICENSE'>
-    <img src="https://img.shields.io/github/license/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
-    </a>
-    <a href='https://github.com/vagr9k/gatsby-advanced-starter'>
-    <img src="https://img.shields.io/github/v/tag/Vagr9K/gatsby-advanced-starter" alt="Logo" />
-    </a>
-        <a href='https://github.com/vagr9k/gatsby-advanced-starter/stargazers'>
-    <img src="https://img.shields.io/github/stars/Vagr9K/gatsby-advanced-starter" alt="Logo" />
-    </a>
-        <a href="https://twitter.com/intent/tweet?text=A%20cool%20%40gatsbyjs%20starter%3A&url=https%3A%2F%2Fgithub.com%2FVagr9K%2Fgatsby-advanced-starter">
-    <img src="https://img.shields.io/twitter/url/https/github.com/vagr9k/gatsby-advanced-starter.svg?style=social" alt="Logo" />
-    </a>
-</div>
+# Blog
 
-<div align="center"  style="margin-bottom:30px">
-    <img src="docs/logos/logo.png" alt="Logo" width='400px' height='400px'/>
-</div>
-
-<div align="center"  style="margin-bottom:30px">
-<a href="https://www.npmjs.com/package/gatsby-theme-advanced"><img src="https://badgen.net/npm/v/gatsby-theme-advanced" alt="npm" /></a>
-<a href='https://coveralls.io/github/Vagr9K/gatsby-advanced-starter?branch=master'><img src='https://coveralls.io/repos/github/Vagr9K/gatsby-advanced-starter/badge.svg?branch=master' alt='Coverage Status' /></a>
-<a href="https://www.npmjs.com/package/gatsby-theme-amaranth"><img src="https://badgen.net/npm/v/gatsby-theme-amaranth" alt="npm" /></a>
-<a href="https://codecov.io/gh/Vagr9K/gatsby-advanced-starter">
-  <img src="https://codecov.io/gh/Vagr9K/gatsby-advanced-starter/branch/master/graph/badge.svg?token=UsUNVAmMLr"/>
-</a>
-<a href="https://www.styled-components.com/"><img src="https://badgen.net/badge/Built%20With/styled%20components/db7093" alt="Built with Styled Components" />
-</a>
-<img src="https://badgen.net/badge/Built With/TypeScript/blue" alt="Powered by TypeScript" />
-<img href="https://advanced-demo.netlify.app/"><img src="https://api.netlify.com/api/v1/badges/69abdfee-1df9-4e69-abe9-e8f5d8c9c630/deploy-status" alt="Advanced Demo"/></a>
-<img href="https://amaranth-demo.netlify.app/"><img src="https://api.netlify.com/api/v1/badges/f9d33573-f168-4ff2-a6e6-e1a7570dd5a0/deploy-status" alt="Amaranth Demo"/></a>
-</div>
-
-<div align="center"  style="margin-bottom:30px">
-<img href="https://open.vscode.dev/vagr9k/gatsby-advanced-starter"><img src="https://open.vscode.dev/badges/open-in-vscode.svg"/></a>
-</div>
-
-# Gatsby Advanced Starter
-
-A starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
-
-This starter aims to provide a minimal base for building advanced GatsbyJS powered websites by using the latest technologies to simplify your process.
-
-It doesn't define any UI limitations in any way and only gives you the basic components for SEO/Links/Infinite Scrolling while creating a comfortable development environment to get started.
-
-Starter supports both [TypeScript](https://www.typescriptlang.org/) and JavaScript, comes with [Jest](https://jestjs.io/) and [Cypress](https://www.cypress.io/) configurations and allows you to write Unit/Integration/E2E tests out of the box.
-
-You are free to use any UI framework/styling options or you can use the [`gatsby-theme-amaranth`](https://www.npmjs.com/package/gatsby-theme-amaranth) as a starting point, which provides a stylish blog design styled with [Styled Components](https://styled-components.com/)
-
-## Demos
-
-[With `gatsby-theme-advanced`](https://advanced-demo.netlify.app/)
-
-[With `gatsby-theme-amaranth`](https://amaranth-demo.netlify.app/).
+Have a peek »»» [https://www.attejuvonen.fi](https://www.attejuvonen.fi)
 
 ## Features
 
-- Gatsby v4 support
-- First class [TypeScript](https://www.typescriptlang.org/) support (for query data and components exposed by the theme)
-- Styled Components used for styling
-- Posts in MDX
-  - Code syntax highlighting
-  - Embed videos
-  - Embed iframes
-- Infinite Scrolling
-- React Query for client side API calls
-- Tags
-  - Separate page for posts under each tag
-- Categories
-  - Separate page for posts under each category
-- Social features
-  - Twitter tweet button
-  - Facebook share/share count
-  - Reddit share/share count
-  - LinkedIn share button
-- Author section
-- Related posts computation and display based on category/tag match ranking
-- [Disqus](https://disqus.com/) support
-- [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/) for optimized image generation
-- Inline SVG imports
-- High configurability
-- Separate components for everything:
-  - Gatsby Link utilities
-  - SEO
-  - Disqus
-- PWA features
-  - Offline support
-  - Web App Manifest support
-  - Loading progress for slow networks
-- SEO
-  - [Google gtag.js](https://developers.google.com/gtagjs/) support
-  - Sitemap generation
-  - General description tags
-  - [Google Structured Data](https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data)
-  - [OpenGraph Tags (Facebook/Google+/Pinterest)](https://ogp.me/)
-  - [Twitter Tags (Twitter Cards)](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup)
-- RSS feeds
-- Development tools
-  - Yarn 3
-  - [Jest](https://jestjs.io/) for unit/integration testing
-  - [Cypress](https://www.cypress.io/) for E2E testing
-  - CI via GitHub Actions
-  - CD via GitHub Actions
-  - [ESLint](https://eslint.org/) for linting
-  - [Prettier](https://prettier.io/) for code formatting
-  - [React Hooks Linting](https://www.npmjs.com/package/eslint-plugin-react-hooks)
-  - Remark-Lint for linting Markdown
-  - write-good for linting English prose
-  - gh-pages for deploying to GitHub pages
-  - [Netlify](https://www.netlify.com/) deploy configuration
+- **Responsive** and streamlined design.
+- Gatsby compiles the blog into HTML+CSS+JS so **hosting the blog costs nothing** at CDNs like Netlify.
+- **Blazing fast** UX: The website is visible and functional after only 1 round trip and ~20kB of data. That first round trip can be super fast to anywhere in the world, because the blog is only static assets which can be delivered by CDN. Subsequent pageloads render ~instantly thanks to link prefetching.
+- Autogenerated **tracedSVG image placeholders** are stylized to create a smooth look and transition as the image loads without the page jumping around.
+- Write blog posts into **Markdown** files (easy to format and content will not be married to any platform).
+- **Expandable**: possible to embed custom React components into Markdown.
+- Posts organized by **tags**.
+- **Teasers** of posts are generated to front page with **infinite scroll** which gracefully degrades into **pagination**.
+- Allow readers to be notified of updates with **RSS feed** and email newsletter.
+- Hero section with animated 3D WebGL art.
+- Contact Form.
 
-## Getting Started
+## Feel free to fork
 
-Install this starter by running the following commands from your CLI:
+[![License: MIT](badge-mit.svg)](https://opensource.org/licenses/MIT)
 
-```sh
-gatsby new YourProjectName https://github.com/Vagr9K/gatsby-advanced-starter
-cd YourProjectName
-yarn develop # or gatsby develop
-```
+You are free to use this repo to create your own blog (code in the repo is MIT licensed).
 
-Note that the [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli) needs to be installed and updated for the `gatsby` command to work.
+#### How to create your own blog with this repo
 
-Alternatively you can fork the project, make your changes and merge new upstream features when needed:
+- Setup like a typical Gatsby project. If you run into trouble:
+  - Install nvm to manage different Node versions
+  - Use nvm to switch your Node version to v16: `nvm use v16`
+  - Install v4 of gatsby-cli globally: `npm install -g gatsby-cli@latest-v4`
+  - Install other dependencies: `npm install`.
+  - Run in development mode with `gatsby develop`.
+  - Run in production mode with `gatsby build && gatsby serve`.
+- Make it your own
+  - Go through everything in `content/meta/config.js` and `content/pages` and `content/parts`
+  - Search all files for "atte".
+  - Replace `static/preview.jpg` (this is the image that is used when someone shares a link to your blog on a social network like Reddit). Recommended aspect ratio is 1.91.
+  - When you publish, make sure caching and redirects work reasonably. I recommend Netlify, in which case cache configuration in `static/_headers` is fine and you just need to edit 1 line in `static/_redirects`.
+  - Move your own icons into `src/images/app-icons`, run `npm run generate-app-icons`, then replace `static/favicon.ico`.
+  - Environment variables can be set in a `.env` file. It's good practice to keep it in `.gitignore` so it doesn't get published to the repo. When you publish your website, find out how you can add environment variables to your host without publishing the `.env` file. If you are wondering why environment variables are used, it is to prevent people from accidentally spamming (for example, people who forked this repo used to test the contact page by sending me messages like dffdsffdsfd).
+  - Add [Plausible Analytics](https://plausible.io/): add `PLAUSIBLE_DOMAIN=mywebsite.com` to environment variables. Note that this variable is also used for OpenGraph (social sharing) tags, so if you don't set this variable, you need to fix the OpenGraph pathing.
+  - There is an e-mail newsletter link on the `Subscribe` page. Remove it or set up a newsletter and add the URL as an environment variable `EMAIL_SUB_LINK`.
+  - There is a Contact page. Remove it or set up handling for your form submissions. The POST address where forms are sent is defined in environment variable `CONTACT_POST_ADDRESS`. I'm using Google Script to handle form submissions. If you also want to use Google Script, [instructions are here](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server) and [here is an improved version of the script](handleFormSubmission.gs).
+- Creating content
+  - Blog posts are in `mock_posts` and `posts` folders. By default only mock posts are used (to help you tweak the website before you have a lot of content). You can switch to real posts by creating an environment variable `POSTS_FOLDER=posts`. Please try not to accidentally repost my real posts if you are only tinkering.
+  - When you create posts, a folder with a name like `2020-03-05--my-book-review` will be published, whereas a name like `my-book-review` will be considered a draft and will not be published. There are ways to accidentally publish drafts. If you are worried about that, the easiest way to avoid it is to deploy your site from GitHub via Netlify and _never commit draft posts to the repo_.
+  - You have to manually crop images to 2.222 aspect ratio.
 
-- [Fork this repository on GitHub](https://github.com/Vagr9K/gatsby-advanced-starter/fork)
-- Run the following commands:
+## Attribution
 
-  ```sh
-  git clone https://github.com/${YourUsername}/${YourForkName} YourForkName # Clone your fork
-  cd YourForkName
-  yarn install # or npm install
-  yarn develop # or gatsby develop
-  ```
+Hi, I'm Baobab. I didn't do everything by myself; I leveraged the work of many awesome creators.
 
-## Receiving upstream updates
+- Photos are mostly from [Unsplash](https://www.unsplash.com/), hover over to see photographer attribution.
+- Icons are mostly from [FontAwesome](https://origin.fontawesome.com/).
+- Hero section 3d animated background is from [VantaJS](https://www.vantajs.com/) and wavey divider from [Softr](https://www.softr.io/tools/svg-wave-generator).
 
-You have multiple options when it comes to receiving upstream updates:
+I started building on top of [Greg Lobinski's](https://github.com/greglobinski) excellent [hero-blog-starter](https://github.com/greglobinski/gatsby-starter-hero-blog/). Main changes from Greg's version:
 
-- Pull and merge upstream changes into your repo
-- Change the versions of `gatsby-theme-advanced` and `gatsby-theme-amaranth` from local to remote.
-- Install a different theme, such as the [`gatsby-theme-material`](https://www.npmjs.com/package/gatsby-theme-material).
-
-First option allows you to make your own changes to the themes without having to fork and publish them. This is the default approach when you clone/fork the starter repository.
-
-Second option simplifies your CI/CD setup and allows you to receive updates by simply bumping the package version. This also applies if you decide to use a different theme with the starter.
-
-To switch to the remote versions, open `package.json` and edit the dependency section:
-
-```js
- "gatsby-theme-amaranth": "*",
- // or
-  "gatsby-theme-advanced": "*",
-```
-
-into
-
-```js
- "gatsby-theme-amaranth": "3.2", // Or the version you want
- // or
-  "gatsby-theme-advanced": "3.2", // Or the version you want
-```
-
-If you want to install a different theme outside of the repo, such as the [`gatsby-theme-material`](https://www.npmjs.com/package/gatsby-theme-material), run:
-
-```sh
-yarn add gatsby-theme-material # Or any other Gatsby theme
-```
-
-Then configure the theme in `gatsby-config.js`:
-
-```js
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-theme-material`, // Or any other theme that you have installed
-      options: {
-        basePath: `/blog`, // Consult the documentation of the respective theme to figure out the applicable settings
-      },
-    },
-  ],
-};
-```
-
-## Configuration
-
-### Select a starting point
-
-To configure the theme edit your `gatsby-config.js`:
-
-```js
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-theme-advanced`,
-      options: {
-        basePath: `/blog`,
-      },
-    },
-  ],
-};
-```
-
-Here you can switch between `gatsby-theme-advanced` and `gatsby-theme-amaranth` or any other Gatsby theme that you intend to use with the starter.
-
-For configuring the themes, consult their respective documentation pages:
-
-- [Advanced](themes/advanced/README.md)
-- [Amaranth](themes/amaranth/README.md)
-
-### NetlifyCMS
-
-First of all, make sure to edit `static/admin/config.yml` and add your [GitHub/GitLab/NetlifyId credentials](https://www.netlifycms.org/docs/authentication-backends/):
-
-```yml
-backend:
-  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
-  branch: master # Branch to update
-  repo: vagr9k/gatsby-material-starter # Repo for pushing new commits. Make sure to replace with your repo!
-```
-
-You can visit `/admin/` after and will be greeted by a login dialog (depending on the auth provider you ave chosen above).
-
-If want to customize Netlify CMS, e.g. registering custom widgets or styling the preview pane, you can do so by editing `src/netlifycms/index.js`:
-
-```js
-import CMS from "netlify-cms-app";
-
-CMS.init({
-  config: {
-    backend: {
-      name: "git-gateway",
-    },
-  },
-});
-```
-
-For NetlifyCMS specific issues visit the [official documentation](https://www.netlifycms.org/docs/intro/).
-
-### Contributing
-
-If you have any issues, questions or suggestions related to the starter then feel free to bring them up!
-
-If you'd like to contribute to the repository and need some pointers, take a look at the [Contribution Guide](./.github/CONTRIBUTING.md).
-
-# Author
-
-Ruben Harutyunyan ([@Vagr9K](https://twitter.com/Vagr9K))
+- Fixed draft posts (used to leak draft posts into production)
+- Fixed RSS feed
+  - Dates were added to RSS items so that RSS readers are able to tell which content is new.
+  - Non-post pages removed from RSS feed.
+- Fixed 404 page (text used to be hidden under header)
+- Contact page entirely redone.
+  - Had a font issue caused by antd library. I was unable to reproduce the issue locally to find what was causing it, so I redid the entire form without the library.
+  - Submission used to require entire web site to be hosted on Netlify. Now the Contact Form submission uses Google Scripts and web site hosting / form handling can be changed independently.
+  - Submission works for users who have JS disabled.
+- Allow multiple tags (used to be just 1 category per post)
+- Allow custom React components inside Markdown files.
+- Added 'Subscribe' page, so users know that RSS feed exists (the page also contains a link to email newsletter)
+- Added infinite scroll, which gracefully degrades into pagination.
+- Many design changes. Spent a lot of time tweaking image placeholders :gem: Removed and simplified a lot of features to create a less cluttered look (matter of preference, eye of the beholder and so forth...)
