@@ -73,7 +73,7 @@ bundle-stats.json
 # TypeScript output
 lib/
 dist/
-
+yarn.lock
 # Prebuilt packages
 pkgroot/
 
