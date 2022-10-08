@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Instagram/Layout';
 import { graphql } from 'gatsby';
 import theme from "../theme/theme.yaml";
-import Gallery from '../components/Instagram/Galery';
+import Gallery from '../components/Instagram/galery';
 import Headline from "../components/Article/Headline";
 import Article from "../components/Article";
 import Seo from "../components/Seo";
