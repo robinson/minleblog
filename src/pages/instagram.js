@@ -36,6 +36,9 @@ export const query = graphql`
         node {
           id
           caption
+          permalink
+          media_url
+          thumbnail_url
           localImage {
             childImageSharp {
                 gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED, width: 500, height: 500)
