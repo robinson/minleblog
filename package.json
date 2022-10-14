@@ -1,7 +1,7 @@
 {
-  "name": "@baobabkoodaa/blog",
-  "version": "0.9.0",
-  "author": "Baobab Koodaa",
+  "name": "@hieule.de/blog",
+  "version": "1.0.0",
+  "author": "hieule",
   "description": "Feature-rich blog with streamlined design.",
   "license": "MIT",
   "dependencies": {
@@ -34,8 +34,6 @@
     "gatsby-source-instagram-all": "^5.2.1",
     "gatsby-transformer-remark": "^5.18.1",
     "gatsby-transformer-sharp": "^4.18.1",
-    "grommet": "^2.7.1",
-    "grommet-icons": "^4.2.0",
     "js-yaml": "^4.1.0",
     "lodash.throttle": "^4.1.1",
     "normalize.css": "^8.0.1",
@@ -64,9 +62,6 @@
     "grommet": "^2.7.1",
     "grommet-icons": "^4.2.0",
     "prop-types": "^15.6.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "rehype-react": "^3.0.2",
     "styled-components": "^4.3.2"
   },
   "keywords": [
