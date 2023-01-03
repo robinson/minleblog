@@ -17,3 +17,4 @@ So, as the name already said, secure by design is making the software system mor
 - Resilient Security
 - Organized Security
 - Transparent Security
+(to be continue)
