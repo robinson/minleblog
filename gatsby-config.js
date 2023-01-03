@@ -21,12 +21,12 @@ module.exports = {
         component: require.resolve(`./src/layouts/`)
       }
     },
-    {
-      resolve: `gatsby-source-instagram-all`,
-      options: {
-        access_token: process.env.INSTAGRAM_TOKEN
-      }
-    },
+    // {
+    //   resolve: `gatsby-source-instagram-all`,
+    //   options: {
+    //     access_token: process.env.INSTAGRAM_TOKEN
+    //   }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
