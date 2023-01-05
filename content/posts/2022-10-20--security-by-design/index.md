@@ -1,7 +1,7 @@
 ---
 title: What is security by design and how
 tags: ["cybersecurity", "design"]
-cover: BBF7B866-4C38-410A-9DA1-869D985B4408.jpeg
+cover: kJkssG4RT-2g1zovA52yyQ.jpeg
 author: lth
 ---
 
