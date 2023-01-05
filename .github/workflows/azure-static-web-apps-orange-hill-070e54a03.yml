@@ -32,9 +32,9 @@ jobs:
           output_location: "" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
-        CONTACT_POST_ADDRESS: ${{ secrets.CONTACT_POST_ADDRESS }}
-        POSTS_FOLDER: ${{ secrets.POSTS_FOLDER }}
-        INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          CONTACT_POST_ADDRESS: ${{ secrets.CONTACT_POST_ADDRESS }}
+          POSTS_FOLDER: ${{ secrets.POSTS_FOLDER }}
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
